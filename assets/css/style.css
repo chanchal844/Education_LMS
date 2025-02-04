@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.r-b {
+  margin: 60px 0px;
+}
+img {
+  width: 100%;
+}
+li,
+a {
+  font-weight: 500;
+  font-size: 18px;
+  color: #eee !important;
+  text-decoration: none !important;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+  color: #eee;
+  background-color: #770c0e;
+  box-shadow: rgba(36, 7, 7, 0.55) 0px 25px 20px -20px;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.nav__links {
+  list-style: none;
+}
+ul.nav__links {
+  margin-top: 1rem !important;
+}
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+  color: white;
+}
+
+.nav__links li a:hover {
+  color: #000 !important;
+}
+.bar-icon {
+  font-size: 30px;
+  color: #eee;
+  font-weight: 600;
+  display: none;
+}
+.header-icon i {
+  padding: 0px 10px;
+}
+
+.btn {
+  padding: 9px 24px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.btn-brand {
+  background-color: #830a0c !important;
+  color: #fff;
+  box-shadow: rgba(36, 7, 7, 0.55) 0px 25px 20px -20px;
+  border-radius: 30px !important;
+  padding: 10px 20px !important;
+}
+
+.hero {
+  background-color: #670e10;
+}
+.hero-img img {
+  max-width: 650px;
+  height: 50% !important;
+  margin: 20px 0px;
+  margin-top: 0px;
+}
+.sec-heading {
+  font-weight: bolder;
+  padding: 60px 0px;
+  position: relative;
+  cursor: pointer;
+}
+
+.sec-heading::after {
+  position: absolute;
+  content: "";
+  display: block;
+  height: 1px;
+  width: 140px;
+  background-color: #670e10;
+  border-radius: 15px;
+  left: 45%;
+}
+
+.course {
+  background-color: #e2e2e7;
+  padding: 60px 0px;
+}
+.card {
+  padding: 20px;
+  height: 200px !important;
+  /* width: 200px; */
+}
+.card-icon {
+  margin-top: 50px;
+}
+.card-icon i {
+  color: #770c0e;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.card:hover {
+  background-color: #770c0e;
+  color: #eee;
+}
+.card:hover i{
+    color: #eee;
+}
+.top-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px;
+}
+.top-card img {
+  height: 200px;
+  padding: 10px 0px;
+}
+.rate {
+  color: #770c0e;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.star {
+  color: goldenrod;
+}
+@media screen and (max-width: 992px) {
+  .bar-icon {
+    display: block;
+  }
+
+  .nav__links {
+    display: none;
+  }
+  .header-icon {
+    display: none;
+  }
+}
